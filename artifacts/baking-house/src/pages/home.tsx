@@ -8,6 +8,7 @@ import CustomOrders from "@/components/CustomOrders";
 import Hampers from "@/components/Hampers";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
+import InstagramSection from "@/components/InstagramSection";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -26,6 +27,7 @@ export default function Home() {
       <Hampers />
       <WhyChooseUs />
       <Gallery />
+      <InstagramSection />
       <Testimonials />
       <FAQ />
       <Contact />
