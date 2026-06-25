@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { getInstagramDMLink } from "@/lib/whatsapp";
+import { openInstagramDM } from "@/lib/whatsapp";
 
 // Assets
 import cakeImage from "@assets/spiderman_cake_1782389413939.jpeg";
@@ -133,14 +133,12 @@ export default function ProductMenu() {
                 </CardContent>
                 <CardFooter className="pt-2 pb-6">
                   <Button 
-                    asChild 
                     variant="outline" 
                     className="w-full border-primary/20 hover:bg-primary hover:text-primary-foreground transition-colors"
                     data-testid={`button-enquire-${product.id}`}
+                    onClick={() => openInstagramDM(product.name)}
                   >
-                    <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-                      Enquire on Instagram
-                    </a>
+                    Enquire on Instagram
                   </Button>
                 </CardFooter>
               </Card>

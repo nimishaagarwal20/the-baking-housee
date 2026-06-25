@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { getInstagramDMLink } from "@/lib/whatsapp";
+import { openInstagramDM } from "@/lib/whatsapp";
 import cakeImage from "@assets/spiderman_cake_1782389413939.jpeg";
 import pinkCakeImage from "@assets/WhatsApp_Image_2026-06-20_at_10.01.09_PM_1782389413942.jpeg";
 import doughnutImage from "@assets/doughnut_1782389413938.jpeg";
@@ -55,13 +55,11 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 variant="outline"
-                asChild
+                onClick={() => openInstagramDM()}
                 className="border-primary/20 bg-background hover:bg-primary/5 text-primary h-14 px-8 text-base shadow-sm"
                 data-testid="button-hero-instagram"
               >
-                <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-                  Order on Instagram
-                </a>
+                Order on Instagram
               </Button>
             </div>
           </motion.div>

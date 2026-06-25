@@ -13,10 +13,12 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingInstagram from "@/components/FloatingInstagram";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground flex flex-col">
+      <FloatingInstagram />
       <Header />
       <Hero />
       <About />

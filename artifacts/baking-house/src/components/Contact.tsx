@@ -1,7 +1,7 @@
 import React from "react";
 import { MapPin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getInstagramDMLink, INSTAGRAM_HANDLE, INSTAGRAM_URL } from "@/lib/whatsapp";
+import { openInstagramDM, INSTAGRAM_HANDLE, INSTAGRAM_URL } from "@/lib/whatsapp";
 
 export default function Contact() {
   return (
@@ -49,11 +49,9 @@ export default function Contact() {
               </p>
               
               <div className="flex flex-col w-full gap-4">
-                <Button asChild size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                  <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-                    <Instagram className="w-5 h-5 mr-2" />
-                    Order via Instagram DM
-                  </a>
+                <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => openInstagramDM()}>
+                  <Instagram className="w-5 h-5 mr-2" />
+                  Order via Instagram DM
                 </Button>
                 
                 <Button asChild variant="outline" size="lg" className="w-full border-primary/20 text-primary hover:bg-primary/5">

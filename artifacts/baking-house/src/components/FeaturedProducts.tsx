@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { getInstagramDMLink } from "@/lib/whatsapp";
+import { openInstagramDM } from "@/lib/whatsapp";
 
 import cakeImage from "@assets/WhatsApp_Image_2026-06-20_at_10.01.09_PM_1782389413942.jpeg";
 import blackCakeImage from "@assets/WhatsApp_Image_2026-06-20_at_10.07.39_PM_(3)_1782389413945.jpeg";
@@ -73,14 +73,12 @@ export default function FeaturedProducts() {
                 <h3 className="text-white font-serif text-xl font-bold mb-1 transform translate-y-2 group-hover:translate-y-0 transition-transform">{item.name}</h3>
                 <p className="text-white/80 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity delay-100">{item.tagline}</p>
                 <Button 
-                  asChild
                   size="sm"
                   className="w-full bg-white/20 hover:bg-white text-white hover:text-black backdrop-blur-sm border border-white/30 opacity-0 group-hover:opacity-100 transition-all delay-150"
                   data-testid={`button-order-${item.id}`}
+                  onClick={() => openInstagramDM(item.name)}
                 >
-                  <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-                    Order Now
-                  </a>
+                  Order Now
                 </Button>
               </div>
             </motion.div>

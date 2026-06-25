@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getInstagramDMLink } from "@/lib/whatsapp";
+import { openInstagramDM } from "@/lib/whatsapp";
 import logoPath from "@assets/WhatsApp_Image_2026-06-25_at_6.54.10_PM_1782395390273.jpeg";
 
 export default function Header() {
@@ -79,13 +79,11 @@ export default function Header() {
               ))}
             </ul>
             <Button
-              asChild
+              onClick={() => openInstagramDM()}
               className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm"
               data-testid="button-header-order"
             >
-              <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-                Order on Instagram
-              </a>
+              Order on Instagram
             </Button>
           </nav>
 
@@ -118,13 +116,11 @@ export default function Header() {
             ))}
           </ul>
           <Button
-            asChild
+            onClick={() => openInstagramDM()}
             className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
             data-testid="button-mobile-header-order"
           >
-            <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
-              Order on Instagram
-            </a>
+            Order on Instagram
           </Button>
         </div>
       )}
