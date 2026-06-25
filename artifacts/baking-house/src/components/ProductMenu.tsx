@@ -23,14 +23,14 @@ export default function ProductMenu() {
       id: "cupcakes",
       name: "Assorted Cupcakes",
       description: "Soft, fluffy cupcakes topped with creamy frosting in various delightful flavours.",
-      image: cupcakeImage,
+      image: "/images/cupcakes.jpg",
       hasRealImage: true
     },
     {
       id: "tea-cakes",
       name: "Classic Tea Cakes",
       description: "Perfectly baked soft tea cakes to accompany your evening brew.",
-      image: "/images/tea-cake.jpg",
+      image: "/images/tea-cake-new.jpg",
       video: null,
       hasRealImage: true
     },
@@ -61,9 +61,9 @@ export default function ProductMenu() {
       id: "cookie-dough-cups",
       name: "Cookie Dough Cups",
       description: "Decadent edible cookie dough served in convenient individual cups.",
-      image: null,
+      image: "/images/cookie-dough.jpg",
       video: null,
-      hasRealImage: false
+      hasRealImage: true
     },
     {
       id: "hampers",
