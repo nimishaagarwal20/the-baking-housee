@@ -21,7 +21,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { getWhatsAppLink } from "@/lib/whatsapp";
+import { getInstagramDMLink } from "@/lib/whatsapp";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -64,7 +64,8 @@ Flavour Preference: ${values.flavour}
 Customisation Details: ${values.customisation || "None"}
 Message: ${values.message || "None"}`;
 
-    window.open(getWhatsAppLink(text), "_blank");
+    navigator.clipboard.writeText(text).catch(() => {});
+    window.open(getInstagramDMLink(), "_blank");
   }
 
   return (
@@ -241,8 +242,11 @@ Message: ${values.message || "None"}`;
               />
 
               <Button type="submit" className="w-full h-12 text-lg" data-testid="button-submit-custom-order">
-                Send Enquiry on WhatsApp
+                Send Enquiry via Instagram DM
               </Button>
+              <p className="text-xs text-center text-muted-foreground">
+                Your order details will be copied to clipboard — just paste them in the DM!
+              </p>
             </form>
           </Form>
         </motion.div>

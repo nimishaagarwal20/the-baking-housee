@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { getWhatsAppLink } from "@/lib/whatsapp";
+import { getInstagramDMLink } from "@/lib/whatsapp";
 
 import cakeImage from "@assets/WhatsApp_Image_2026-06-20_at_10.01.09_PM_1782389413942.jpeg";
 import blackCakeImage from "@assets/WhatsApp_Image_2026-06-20_at_10.07.39_PM_(3)_1782389413945.jpeg";
@@ -78,7 +78,7 @@ export default function FeaturedProducts() {
                   className="w-full bg-white/20 hover:bg-white text-white hover:text-black backdrop-blur-sm border border-white/30 opacity-0 group-hover:opacity-100 transition-all delay-150"
                   data-testid={`button-order-${item.id}`}
                 >
-                  <a href={getWhatsAppLink(`Hi! I'd like to order the ${item.name} featured on your website.`)} target="_blank" rel="noopener noreferrer">
+                  <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
                     Order Now
                   </a>
                 </Button>

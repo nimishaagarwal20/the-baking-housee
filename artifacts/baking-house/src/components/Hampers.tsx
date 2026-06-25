@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { getWhatsAppLink } from "@/lib/whatsapp";
+import { getInstagramDMLink } from "@/lib/whatsapp";
 
 import hamper1 from "@assets/WhatsApp_Image_2026-06-20_at_10.03.03_PM_1782389413943.jpeg";
 import hamper2 from "@assets/WhatsApp_Image_2026-06-20_at_10.03.04_PM_1782389413944.jpeg";
@@ -72,7 +72,7 @@ export default function Hampers() {
                     className="w-full"
                     data-testid={`button-customise-${hamper.id}`}
                   >
-                    <a href={getWhatsAppLink(`Hi! I'm interested in customising a ${hamper.title}.`)} target="_blank" rel="noopener noreferrer">
+                    <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
                       Customise a Hamper
                     </a>
                   </Button>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getWhatsAppLink } from "@/lib/whatsapp";
+import { getInstagramDMLink } from "@/lib/whatsapp";
 import logoPath from "@assets/WhatsApp_Image_2026-06-25_at_6.54.10_PM_1782395390273.jpeg";
 
 export default function Header() {
@@ -83,8 +83,8 @@ export default function Header() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm"
               data-testid="button-header-order"
             >
-              <a href={getWhatsAppLink("Hello The Baking Housee! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
-                Order on WhatsApp
+              <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
+                Order on Instagram
               </a>
             </Button>
           </nav>
@@ -119,11 +119,11 @@ export default function Header() {
           </ul>
           <Button
             asChild
-            className="w-full bg-[#25D366] text-white hover:bg-[#128C7E]"
+            className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
             data-testid="button-mobile-header-order"
           >
-            <a href={getWhatsAppLink("Hello The Baking Housee! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
-              Order on WhatsApp
+            <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
+              Order on Instagram
             </a>
           </Button>
         </div>

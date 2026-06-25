@@ -18,7 +18,7 @@ export default function FAQ() {
     },
     {
       question: "How can I place an order?",
-      answer: "You can place an enquiry through the website form on our Custom Orders page, or directly contact us by clicking any of the 'Order on WhatsApp' buttons."
+      answer: "You can place an enquiry through the website form on our Custom Orders page, or reach us directly via Instagram DM at @thebakinghousee."
     },
     {
       question: "Do you make customised hampers?",
@@ -30,7 +30,7 @@ export default function FAQ() {
     },
     {
       question: "Do you offer delivery?",
-      answer: "Delivery details can be discussed while placing the order on WhatsApp. Depending on the location, we can arrange for safe delivery of your bakes."
+      answer: "Delivery details can be discussed while placing the order via Instagram DM. Depending on the location, we can arrange for safe delivery of your bakes."
     }
   ];
 

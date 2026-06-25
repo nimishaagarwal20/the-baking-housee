@@ -1,7 +1,7 @@
 import React from "react";
-import { MapPin, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getWhatsAppLink, INSTAGRAM_HANDLE, WHATSAPP_NUMBER } from "@/lib/whatsapp";
+import { getInstagramDMLink, INSTAGRAM_HANDLE, INSTAGRAM_URL } from "@/lib/whatsapp";
 
 export default function Contact() {
   return (
@@ -19,20 +19,10 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                    <MessageCircle className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-primary-foreground/60">WhatsApp Us</p>
-                    <p className="font-semibold text-lg">+{WHATSAPP_NUMBER}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                     <Instagram className="w-6 h-6" />
                   </div>
                   <div>
-                    <p className="text-sm text-primary-foreground/60">Follow Us</p>
+                    <p className="text-sm text-primary-foreground/60">Instagram</p>
                     <p className="font-semibold text-lg">{INSTAGRAM_HANDLE}</p>
                   </div>
                 </div>
@@ -55,19 +45,19 @@ export default function Contact() {
               </div>
               <h3 className="text-2xl font-bold font-serif mb-4">Let's connect!</h3>
               <p className="text-muted-foreground mb-8">
-                The quickest way to reach us is through WhatsApp or Instagram DMs. We try to respond as soon as possible!
+                The quickest way to reach us is through Instagram DMs. We try to respond as soon as possible!
               </p>
               
               <div className="flex flex-col w-full gap-4">
-                <Button asChild size="lg" className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white">
-                  <a href={getWhatsAppLink("Hello! I'd like to place an order.")} target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Order on WhatsApp
+                <Button asChild size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                  <a href={getInstagramDMLink()} target="_blank" rel="noopener noreferrer">
+                    <Instagram className="w-5 h-5 mr-2" />
+                    Order via Instagram DM
                   </a>
                 </Button>
                 
                 <Button asChild variant="outline" size="lg" className="w-full border-primary/20 text-primary hover:bg-primary/5">
-                  <a href={`https://instagram.com/${INSTAGRAM_HANDLE.replace('@', '')}`} target="_blank" rel="noopener noreferrer">
+                  <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
                     <Instagram className="w-5 h-5 mr-2" />
                     Follow on Instagram
                   </a>
