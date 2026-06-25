@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "The Baking House by Tanisha Agarwal"
+version = "1.0.0"
+id = "artifacts/baking-house"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25789
+
+[services.development]
+run = "pnpm --filter @workspace/baking-house run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/baking-house", "run", "build" ]
+publicDir = "artifacts/baking-house/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25789"
+BASE_PATH = "/"

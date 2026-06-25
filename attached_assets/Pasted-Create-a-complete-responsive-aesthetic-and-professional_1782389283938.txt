@@ -1,0 +1,532 @@
+Create a complete, responsive, aesthetic, and professional website for a homegrown 100% eggless bakery brand.
+
+## Brand Details
+
+Brand name: **The Baking House by Tanisha Agarwal**
+
+Brand description:
+The Baking House by Tanisha Agarwal is a homegrown 100% eggless bakery that creates freshly baked cakes, cupcakes, tea cakes, cookies, doughnuts, brownies, cookie dough cups, customised hampers, and muffins. The website should feel warm, premium, trustworthy, handmade, and inviting.
+
+Brand personality:
+
+* Homemade and heartfelt
+* Elegant but friendly
+* Premium yet approachable
+* Fresh, soft, sweet, and aesthetic
+* Perfect for birthdays, celebrations, gifting, festivals, and everyday indulgence
+
+Brand colors:
+Use shades of purple as the main brand theme. The uploaded logo has a soft pastel pink background and purple branding, so the website should match that visual style.
+
+Suggested color palette:
+
+* Deep purple: #5B2A86
+* Medium purple: #8E44AD
+* Lavender: #C8A2C8
+* Soft lilac: #EBD7F4
+* Pastel pink: #F2CDEB
+* Cream white: #FFF8F2
+* Dark text: #2C1B35
+
+Use the uploaded logo prominently in the header and footer.
+
+## Website Goal
+
+Build a full bakery website that helps visitors:
+
+1. Understand the brand quickly
+2. Browse product categories
+3. View bakery items attractively
+4. Enquire or place orders through WhatsApp
+5. Trust the brand through testimonials, quality highlights, and social proof
+6. Contact the bakery easily
+
+The website should not require online payment at this stage. It should focus on enquiries, custom orders, and WhatsApp-based ordering.
+
+## Website Structure
+
+Create the following pages or sections in a single-page website with smooth navigation:
+
+1. Home
+2. About
+3. Menu / Products
+4. Custom Orders
+5. Hampers
+6. Why Choose Us
+7. Gallery
+8. Testimonials
+9. FAQ
+10. Contact / Order Now
+
+The website should be fully responsive for mobile, tablet, and desktop.
+
+## Header
+
+Create a sticky header with:
+
+* Logo on the left
+* Brand name: The Baking House
+* Subtitle: By Tanisha Agarwal
+* Navigation links: Home, About, Menu, Custom Orders, Hampers, Gallery, Contact
+* A prominent CTA button: “Order on WhatsApp”
+
+On mobile, the navigation should collapse into a clean hamburger menu.
+
+Header style:
+
+* White or soft lilac background
+* Purple text
+* Rounded CTA button
+* Subtle shadow
+* Elegant spacing
+
+## Hero Section
+
+Create a beautiful hero section with a premium bakery feel.
+
+Hero content:
+Headline:
+**Freshly Baked 100% Eggless Treats for Every Celebration**
+
+Subheadline:
+**Handcrafted cakes, cupcakes, brownies, cookies, doughnuts, muffins, tea cakes, cookie dough cups, and customised hampers made with love by The Baking House by Tanisha Agarwal.**
+
+CTA buttons:
+
+* “View Menu”
+* “Order on WhatsApp”
+
+Add small trust badges below:
+
+* 100% Eggless
+* Homegrown Bakery
+* Freshly Baked
+* Custom Orders Available
+
+Hero design:
+
+* Use a soft lavender and pastel pink gradient background
+* Add bakery-style decorative elements such as cupcakes, cookies, cake slices, whisk icons, stars, sprinkles, or soft blobs
+* Include a hero image area. If no real food images are available, use elegant placeholder cards or illustrations for cake, cupcake, brownie, and cookies
+* Keep the design clean and not overcrowded
+
+## About Section
+
+Section heading:
+**About The Baking House**
+
+Content:
+The Baking House by Tanisha Agarwal is a homegrown 100% eggless bakery created for people who love fresh, beautiful, and delicious baked treats. Every item is made with care, keeping taste, quality, presentation, and personal touch at the heart of the brand. From celebration cakes to everyday tea-time bakes and customised hampers, The Baking House brings sweetness to every occasion.
+
+Add 3 highlight cards:
+
+1. **100% Eggless**
+   Perfect for families and celebrations where eggless desserts are preferred.
+
+2. **Freshly Made**
+   Baked with attention to freshness, flavour, and quality.
+
+3. **Customised With Love**
+   Personalised cakes and hampers for birthdays, festivals, gifting, and special moments.
+
+## Menu / Products Section
+
+Create a visually attractive product menu section with cards.
+
+Section heading:
+**Our Eggless Menu**
+
+Intro text:
+Explore our freshly baked range of 100% eggless desserts, perfect for celebrations, gifting, and everyday cravings.
+
+Product categories to show as cards:
+
+1. Cakes
+   Description: Beautiful eggless cakes for birthdays, anniversaries, milestones, and celebrations.
+
+2. Cupcakes
+   Description: Soft, pretty, and flavourful cupcakes for parties, gifting, and dessert tables.
+
+3. Tea Cakes
+   Description: Comforting eggless tea cakes perfect with evening tea or coffee.
+
+4. Cookies
+   Description: Freshly baked cookies with a homemade touch and delicious flavours.
+
+5. Doughnuts
+   Description: Soft and indulgent doughnuts made for sweet cravings and celebrations.
+
+6. Brownies
+   Description: Rich, fudgy, and chocolatey eggless brownies.
+
+7. Cookie Dough Cup
+   Description: A fun and indulgent dessert cup for cookie dough lovers.
+
+8. Customised Hampers
+   Description: Thoughtfully curated dessert hampers for festivals, birthdays, gifting, and special occasions.
+
+9. Muffins
+   Description: Soft and fluffy eggless muffins, perfect as a snack or treat.
+
+Each card should include:
+
+* Product name
+* Short description
+* Placeholder image or icon
+* CTA button: “Enquire Now”
+
+Use hover effects:
+
+* Slight lift
+* Soft shadow
+* Purple border glow
+* Smooth animation
+
+## Featured Products Section
+
+Create a section called:
+**Customer Favourites**
+
+Show 4 highlighted items:
+
+1. Custom Cakes
+2. Fudgy Brownies
+3. Cupcakes
+4. Customised Hampers
+
+Each should have:
+
+* Product title
+* Short selling line
+* “Order Now” button
+* Image placeholder
+
+## Custom Orders Section
+
+Section heading:
+**Customised Cakes & Dessert Orders**
+
+Content:
+Make your celebrations extra special with personalised eggless cakes, cupcakes, brownies, cookies, muffins, and dessert hampers. Share your occasion, flavour preference, theme, quantity, and date, and we will help create something beautiful and delicious.
+
+Create a custom order enquiry form with these fields:
+
+* Name
+* Phone Number
+* Occasion
+* Product Type dropdown: Cake, Cupcakes, Brownies, Cookies, Muffins, Doughnuts, Hamper, Other
+* Date Required
+* Quantity
+* Flavour Preference
+* Theme or Customisation Details
+* Message
+
+Add a button:
+**Send Enquiry on WhatsApp**
+
+Functionality:
+When the user submits the form, generate a WhatsApp message with all entered details and open WhatsApp.
+
+Use placeholder WhatsApp number:
++91XXXXXXXXXX
+
+Keep the number easy to replace in the code.
+
+## Hampers Section
+
+Section heading:
+**Customised Dessert Hampers**
+
+Content:
+Create beautiful and thoughtful customised hampers for birthdays, festivals, thank-you gifts, baby showers, corporate gifting, and special celebrations. Hampers can include cookies, brownies, cupcakes, muffins, mini cakes, and other eggless treats.
+
+Add 3 hamper cards:
+
+1. Birthday Hampers
+2. Festive Hampers
+3. Personalised Gift Hampers
+
+Each card should have:
+
+* Short description
+* CTA: “Customise a Hamper”
+
+## Why Choose Us Section
+
+Section heading:
+**Why Choose The Baking House?**
+
+Create 6 feature cards:
+
+1. 100% Eggless Bakery
+2. Homegrown With Love
+3. Freshly Baked Goodness
+4. Customised Designs
+5. Perfect for Gifting
+6. Beautiful Presentation
+
+Use clean icons and short text.
+
+## Gallery Section
+
+Section heading:
+**A Peek Into Our Bakes**
+
+Create a responsive image gallery grid with placeholder images for:
+
+* Cakes
+* Cupcakes
+* Brownies
+* Cookies
+* Doughnuts
+* Muffins
+* Hampers
+* Tea cakes
+
+Since actual product photos may not be available, use elegant placeholder boxes with soft purple gradients and dessert labels. Make the layout easy to replace with real images later.
+
+Gallery style:
+
+* Rounded corners
+* Soft shadows
+* Hover zoom effect
+* Masonry or grid layout
+
+## Testimonials Section
+
+Section heading:
+**Sweet Words From Our Customers**
+
+Add 4 testimonial cards with sample testimonials:
+
+1. “The cake was beautiful, soft, and absolutely delicious. Loved that it was 100% eggless!”
+2. “The customised hamper was packed so nicely and made the perfect gift.”
+3. “Fresh, homemade, and full of flavour. The brownies were amazing.”
+4. “The cupcakes looked so pretty and tasted even better. Highly recommended!”
+
+Each testimonial should include:
+
+* Customer initials or generic name
+* Star rating
+* Review text
+
+## FAQ Section
+
+Add an accordion FAQ section.
+
+Questions and answers:
+
+1. Do you make 100% eggless products?
+   Answer: Yes, all products at The Baking House are 100% eggless.
+
+2. Do you take customised cake orders?
+   Answer: Yes, customised cakes are available based on theme, flavour, size, and occasion.
+
+3. How can I place an order?
+   Answer: You can place an enquiry through the website form or directly contact us on WhatsApp.
+
+4. Do you make customised hampers?
+   Answer: Yes, customised dessert hampers are available for birthdays, festivals, gifting, and special occasions.
+
+5. How early should I place an order?
+   Answer: Custom orders should ideally be placed in advance to allow enough time for preparation and customisation.
+
+6. Do you offer delivery?
+   Answer: Delivery details can be discussed while placing the order on WhatsApp.
+
+## Contact Section
+
+Section heading:
+**Order Fresh Eggless Bakes**
+
+Add contact information placeholders:
+
+* WhatsApp: +91XXXXXXXXXX
+* Instagram: @thebakinghouse
+* Location: Add city/local area here
+* Email: optional placeholder
+
+Add CTA buttons:
+
+* “Order on WhatsApp”
+* “Follow on Instagram”
+
+Add a contact form:
+
+* Name
+* Phone Number
+* Message
+* Submit button
+
+On submit, the form should create a WhatsApp message and open WhatsApp.
+
+## Footer
+
+Footer should include:
+
+* Logo
+* Brand name: The Baking House by Tanisha Agarwal
+* Short tagline: 100% Eggless Homegrown Bakery
+* Quick links
+* Product links
+* Contact details
+* Instagram link
+* Copyright text:
+  © 2026 The Baking House by Tanisha Agarwal. All rights reserved.
+
+Footer style:
+
+* Deep purple background
+* Cream or white text
+* Soft lavender accents
+
+## Design Requirements
+
+Overall design style:
+
+* Aesthetic
+* Premium
+* Soft
+* Feminine
+* Minimal
+* Clean
+* Bakery-inspired
+* Purple theme
+* Mobile-first
+* Easy to navigate
+
+Use:
+
+* Rounded cards
+* Soft shadows
+* Smooth scroll
+* Subtle animations
+* Clean typography
+* Good spacing
+* Beautiful CTA buttons
+* Decorative bakery elements
+
+Typography:
+Use elegant and readable Google Fonts:
+
+* Headings: Playfair Display, Cormorant Garamond, or Poppins
+* Body: Poppins, Inter, or Lato
+
+Recommended font pairing:
+
+* Headings: Playfair Display
+* Body: Poppins
+
+## Technical Requirements
+
+Build the website using:
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript
+
+The code should be clean, modular, and easy to edit.
+
+Create components:
+
+* Header
+* Hero
+* About
+* ProductMenu
+* FeaturedProducts
+* CustomOrders
+* Hampers
+* WhyChooseUs
+* Gallery
+* Testimonials
+* FAQ
+* Contact
+* Footer
+
+Use responsive Tailwind classes for mobile, tablet, and desktop.
+
+Add smooth scrolling for navigation links.
+
+Add basic animations using CSS or Framer Motion if available. If Framer Motion is not installed, use CSS transitions only.
+
+Use the uploaded logo as the brand logo in the header and footer. Make sure it is responsive and not stretched.
+
+## WhatsApp Functionality
+
+Create a reusable function for WhatsApp enquiries.
+
+The function should:
+
+1. Collect form data
+2. Format it into a readable message
+3. Encode the message
+4. Open WhatsApp link in a new tab
+
+Use this format:
+
+Hello The Baking House, I would like to place an enquiry.
+
+Name:
+Phone:
+Occasion:
+Product:
+Date Required:
+Quantity:
+Flavour Preference:
+Customisation Details:
+Message:
+
+Use placeholder WhatsApp number:
+91XXXXXXXXXX
+
+Make sure the number is clearly defined in one variable so it can be updated easily.
+
+## Content Tone
+
+Website copy should sound:
+
+* Warm
+* Professional
+* Friendly
+* Trustworthy
+* Sweet and inviting
+* Clear and simple
+
+Avoid overly corporate language. The bakery is homegrown, so keep the copy personal and heartfelt.
+
+## SEO Requirements
+
+Add basic SEO-friendly content:
+
+* Page title: The Baking House by Tanisha Agarwal | 100% Eggless Homegrown Bakery
+* Meta description: Freshly baked 100% eggless cakes, cupcakes, brownies, cookies, muffins, doughnuts, tea cakes, cookie dough cups, and customised hampers by The Baking House by Tanisha Agarwal.
+* Use proper headings H1, H2, and H3
+* Add alt text for images
+* Make buttons descriptive
+
+## Accessibility Requirements
+
+Ensure:
+
+* Good color contrast
+* Keyboard accessible buttons and forms
+* Alt text for logo and images
+* Clear labels for form fields
+* Proper heading hierarchy
+* Responsive text sizes
+
+## Final Output Expected
+
+Generate the complete working website with all files required to run on Replit.
+
+The website should:
+
+* Load without errors
+* Be fully responsive
+* Use the uploaded logo
+* Have a beautiful purple bakery theme
+* Include all sections listed above
+* Have working WhatsApp order buttons
+* Have clean and editable code
+* Look polished enough for a real small business bakery
