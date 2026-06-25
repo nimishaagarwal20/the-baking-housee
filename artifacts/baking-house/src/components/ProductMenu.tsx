@@ -9,8 +9,6 @@ import cakeImage from "@assets/spiderman_cake_1782389413939.jpeg";
 import cupcakeImage from "@assets/cupcake_1782389413937.jpeg";
 import doughnutImage from "@assets/doughnut_1782389413938.jpeg";
 import hamperImage from "@assets/WhatsApp_Image_2026-06-20_at_10.03.04_PM_1782389413944.jpeg";
-import video1 from "@assets/WhatsApp_Video_2026-06-25_at_5.45.37_PM_1782390195355.mp4";
-import video2 from "@assets/WhatsApp_Video_2026-06-25_at_5.45.39_PM_1782390195356.mp4";
 
 export default function ProductMenu() {
   const products = [
@@ -32,17 +30,17 @@ export default function ProductMenu() {
       id: "tea-cakes",
       name: "Classic Tea Cakes",
       description: "Perfectly baked soft tea cakes to accompany your evening brew.",
-      image: null,
-      video: video1,
-      hasRealImage: false
+      image: "/images/tea-cake.jpg",
+      video: null,
+      hasRealImage: true
     },
     {
       id: "cookies",
       name: "Gourmet Cookies",
       description: "Chunky, chewy, and loaded with chocolate chips or your favourite mix-ins.",
-      image: null,
-      video: video2,
-      hasRealImage: false
+      image: "/images/cookies.jpg",
+      video: null,
+      hasRealImage: true
     },
     {
       id: "doughnuts",
@@ -55,16 +53,16 @@ export default function ProductMenu() {
       id: "brownies",
       name: "Fudgy Brownies",
       description: "Intensely chocolatey, dense, and perfectly fudgy eggless brownies.",
-      image: null,
-      video: video1,
-      hasRealImage: false
+      image: "/images/brownies.jpg",
+      video: null,
+      hasRealImage: true
     },
     {
       id: "cookie-dough-cups",
       name: "Cookie Dough Cups",
       description: "Decadent edible cookie dough served in convenient individual cups.",
       image: null,
-      video: video2,
+      video: null,
       hasRealImage: false
     },
     {
