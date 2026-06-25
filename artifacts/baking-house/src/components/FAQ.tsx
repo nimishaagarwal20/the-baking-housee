@@ -10,7 +10,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "Do you make 100% eggless products?",
-      answer: "Yes, all products at The Baking House are 100% eggless. We take pride in creating delicious vegetarian treats without compromising on taste or texture."
+      answer: "Yes, all products at The Baking Housee are 100% eggless. We take pride in creating delicious vegetarian treats without compromising on taste or texture."
     },
     {
       question: "Do you take customised cake orders?",

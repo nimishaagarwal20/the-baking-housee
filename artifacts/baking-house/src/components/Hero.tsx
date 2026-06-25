@@ -59,7 +59,7 @@ export default function Hero() {
                 className="border-primary/20 bg-background hover:bg-primary/5 text-primary h-14 px-8 text-base shadow-sm"
                 data-testid="button-hero-whatsapp"
               >
-                <a href={getWhatsAppLink("Hello The Baking House! I'd love to know more about your menu.")} target="_blank" rel="noopener noreferrer">
+                <a href={getWhatsAppLink("Hello The Baking Housee! I'd love to know more about your menu.")} target="_blank" rel="noopener noreferrer">
                   Order on WhatsApp
                 </a>
               </Button>

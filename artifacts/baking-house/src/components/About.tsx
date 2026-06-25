@@ -32,10 +32,10 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-6">About The Baking House</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-6">About The Baking Housee</h2>
             <div className="w-20 h-1 bg-primary/30 mx-auto rounded-full mb-8"></div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Welcome to <strong className="text-primary font-medium">The Baking House by Tanisha Agarwal</strong>. 
+              Welcome to <strong className="text-primary font-medium">The Baking Housee by Tanisha Agarwal</strong>. 
               We are a premium homegrown bakery dedicated to creating beautiful, 100% eggless desserts. 
               What started as a passion project has grown into a small business built on love, quality ingredients, 
               and the joy of making your special moments even sweeter. From custom cakes to beautiful gift hampers, 

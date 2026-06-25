@@ -52,7 +52,7 @@ export default function CustomOrders() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const text = `Hello The Baking House! I would like to place an enquiry.
+    const text = `Hello The Baking Housee! I would like to place an enquiry.
 
 Name: ${values.name}
 Phone: ${values.phone}

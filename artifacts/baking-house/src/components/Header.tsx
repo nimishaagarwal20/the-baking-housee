@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getWhatsAppLink } from "@/lib/whatsapp";
-import logoPath from "@assets/logo_1782389310392.jpeg";
+import logoPath from "@assets/WhatsApp_Image_2026-06-25_at_6.54.10_PM_1782395390273.jpeg";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,7 +57,7 @@ export default function Header() {
               data-testid="header-logo"
             />
             <div className="hidden sm:flex flex-col">
-              <span className="font-serif font-bold text-xl leading-tight text-primary">The Baking House</span>
+              <span className="font-serif font-bold text-xl leading-tight text-primary">The Baking Housee</span>
               <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">By Tanisha Agarwal</span>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function Header() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm"
               data-testid="button-header-order"
             >
-              <a href={getWhatsAppLink("Hello The Baking House! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
+              <a href={getWhatsAppLink("Hello The Baking Housee! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
                 Order on WhatsApp
               </a>
             </Button>
@@ -122,7 +122,7 @@ export default function Header() {
             className="w-full bg-[#25D366] text-white hover:bg-[#128C7E]"
             data-testid="button-mobile-header-order"
           >
-            <a href={getWhatsAppLink("Hello The Baking House! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
+            <a href={getWhatsAppLink("Hello The Baking Housee! I would like to place an order.")} target="_blank" rel="noopener noreferrer">
               Order on WhatsApp
             </a>
           </Button>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Instagram } from "lucide-react";
-import logoPath from "@assets/logo_1782389310392.jpeg";
+import logoPath from "@assets/WhatsApp_Image_2026-06-25_at_6.54.10_PM_1782395390273.jpeg";
 import { INSTAGRAM_HANDLE } from "@/lib/whatsapp";
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
                 className="w-16 h-16 rounded-full object-cover bg-white p-1"
               />
               <div>
-                <h3 className="font-serif font-bold text-2xl text-white">The Baking House</h3>
+                <h3 className="font-serif font-bold text-2xl text-white">The Baking Housee</h3>
                 <p className="text-white/70 text-sm tracking-wider uppercase">By Tanisha Agarwal</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/60 text-sm text-center md:text-left">
-            © 2026 The Baking House by Tanisha Agarwal. All rights reserved.
+            © 2026 The Baking Housee by Tanisha Agarwal. All rights reserved.
           </p>
           <p className="text-white/60 text-sm text-center md:text-right">
             Made with love

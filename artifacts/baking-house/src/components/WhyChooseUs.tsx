@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
     <section className="py-20 bg-muted/20 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-4">Why Choose The Baking House?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-serif text-foreground mb-4">Why Choose The Baking Housee?</h2>
           <div className="w-20 h-1 bg-primary/30 mx-auto rounded-full"></div>
         </div>
 

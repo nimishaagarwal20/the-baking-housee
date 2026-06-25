@@ -43,7 +43,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-primary-foreground/60">Location</p>
-                    <p className="font-semibold text-lg">India</p>
+                    <p className="font-semibold text-lg">Moradabad, Uttar Pradesh</p>
                   </div>
                 </div>
               </div>
